@@ -1,0 +1,32 @@
+<!-- public/index.html -->
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>IFSP - Pirituba</title>
+</head>
+<body> 
+	<img src="Logo.jpg" alt="">   
+	<h1>Avaliação contínua</h1>
+	<h2>Aluno do IFSP, bem-vindo ao <%=nome %></h2>
+	<nav>
+		<a href="/contatos">Contatos</a>
+		<ul>
+			<li><a href="/contatos/1">Contato: 1</a></li>
+			<li><a href="/contatos/2">Contato: 2</a></li>
+			<li><a href="/contatos/3">Contato: 3</a></li>
+			<li><a href="/contatos/4">Contato: 4</a></li>
+		</ul>
+
+		<a href="/cursos">Cursos</a>
+		<ul>
+			<li><a href="/cursos/1">Cursos: 1</a></li>
+			<li><a href="/cursos/2">Cursos: 2</a></li>
+			<li><a href="/cursos/3">Cursos: 3</a></li>
+			<li><a href="/cursos/4">Cursos: 4</a></li>
+			<li><a href="/cursos/5">Cursos: 5</a></li>
+		</ul>
+	</nav>
+</body>
+</html>
