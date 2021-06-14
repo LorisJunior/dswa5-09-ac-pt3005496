@@ -14,7 +14,8 @@
     "express": "^4.17.1",
     "express-load": "^1.1.16",
     "method-override": "^2.3.10",
-    "mongodb": "^3.6.9"
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.13"
   },
   "engines": {
     "node": "10.x"
