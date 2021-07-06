@@ -21,7 +21,7 @@ var cursos = [
                });
        };
        controller.obtemCurso = function(req, res) {
-           var_id = req.params.id;
+           var _id = req.params.id;
            Curso.findById(_id).exec().then(
                function(curso) {
                    if (!curso) throw new Error("Curso não encontrado");
